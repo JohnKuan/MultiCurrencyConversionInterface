@@ -15,6 +15,14 @@
 		B2C9060A247E15590042B5D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C90608247E15590042B5D0 /* LaunchScreen.storyboard */; };
 		B2C90615247E15590042B5D0 /* MultiCurrencyConversionInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C90614247E15590042B5D0 /* MultiCurrencyConversionInterfaceTests.swift */; };
 		B2C90620247E15590042B5D0 /* MultiCurrencyConversionInterfaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9061F247E15590042B5D0 /* MultiCurrencyConversionInterfaceUITests.swift */; };
+		B2C9062F247E16EA0042B5D0 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9062E247E16EA0042B5D0 /* WebService.swift */; };
+		B2C90632247E18850042B5D0 /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C90631247E18850042B5D0 /* CurrencyViewModel.swift */; };
+		B2C90635247E191E0042B5D0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C90634247E191E0042B5D0 /* Models.swift */; };
+		source
+		B2C9063C247E21F60042B5D0 /* Dropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9063B247E21F60042B5D0 /* Dropdown.swift */; };
+		B2C9063F247E290C0042B5D0 /* CurrencyConverterViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9063E247E290C0042B5D0 /* CurrencyConverterViewCard.swift */; };
+		B2F18EE8247E32A3001E1AD2 /* CurrencyConversionScreeenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F18EE7247E32A3001E1AD2 /* CurrencyConversionScreeenViewModel.swift */; };
+		B2F5749F247E3BB500046A32 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F5749E247E3BB500046A32 /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +57,15 @@
 		B2C9061B247E15590042B5D0 /* MultiCurrencyConversionInterfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiCurrencyConversionInterfaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C9061F247E15590042B5D0 /* MultiCurrencyConversionInterfaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCurrencyConversionInterfaceUITests.swift; sourceTree = "<group>"; };
 		B2C90621247E15590042B5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C9062E247E16EA0042B5D0 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		B2C90631247E18850042B5D0 /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
+		B2C90634247E191E0042B5D0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		B2C90637247E1EAC0042B5D0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B2C90639247E1F4F0042B5D0 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B2C9063B247E21F60042B5D0 /* Dropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dropdown.swift; sourceTree = "<group>"; };
+		B2C9063E247E290C0042B5D0 /* CurrencyConverterViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewCard.swift; sourceTree = "<group>"; };
+		B2F18EE7247E32A3001E1AD2 /* CurrencyConversionScreeenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionScreeenViewModel.swift; sourceTree = "<group>"; };
+		B2F5749E247E3BB500046A32 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,11 @@
 		B2C905FC247E15570042B5D0 /* MultiCurrencyConversionInterface */ = {
 			isa = PBXGroup;
 			children = (
+				B2C9063D247E28E90042B5D0 /* Views */,
+				B2C90636247E1E930042B5D0 /* Misc */,
+				B2C90633247E190D0042B5D0 /* Models */,
+				B2C90630247E186C0042B5D0 /* ViewModels */,
+				B2C9062D247E16A20042B5D0 /* Service */,
 				B2C905FD247E15570042B5D0 /* AppDelegate.swift */,
 				B2C905FF247E15570042B5D0 /* SceneDelegate.swift */,
 				B2C90601247E15570042B5D0 /* ContentView.swift */,
@@ -139,12 +159,47 @@
 			path = MultiCurrencyConversionInterfaceUITests;
 			sourceTree = "<group>";
 		};
+		B2C9062D247E16A20042B5D0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B2C9062E247E16EA0042B5D0 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B2C90630247E186C0042B5D0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B2C90631247E18850042B5D0 /* CurrencyViewModel.swift */,
+				B2F18EE7247E32A3001E1AD2 /* CurrencyConversionScreeenViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B2C90633247E190D0042B5D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2C90634247E191E0042B5D0 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B2C90636247E1E930042B5D0 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
 				B2C90637247E1EAC0042B5D0 /* Constants.swift */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		B2C9063D247E28E90042B5D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2C9063B247E21F60042B5D0 /* Dropdown.swift */,
+				B2C9063E247E290C0042B5D0 /* CurrencyConverterViewCard.swift */,
+				B2F5749E247E3BB500046A32 /* ViewExtension.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +334,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C9063F247E290C0042B5D0 /* CurrencyConverterViewCard.swift in Sources */,
 				B2C905FE247E15570042B5D0 /* AppDelegate.swift in Sources */,
+				B2C90632247E18850042B5D0 /* CurrencyViewModel.swift in Sources */,
+				B2F18EE8247E32A3001E1AD2 /* CurrencyConversionScreeenViewModel.swift in Sources */,
 				B2C90600247E15570042B5D0 /* SceneDelegate.swift in Sources */,
+				B2C90635247E191E0042B5D0 /* Models.swift in Sources */,
+				B2F5749F247E3BB500046A32 /* ViewExtension.swift in Sources */,
 				B2C90638247E1EAC0042B5D0 /* Constants.swift in Sources */,
+				B2C9062F247E16EA0042B5D0 /* WebService.swift in Sources */,
+				B2C9063C247E21F60042B5D0 /* Dropdown.swift in Sources */,
 				B2C90602247E15570042B5D0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
