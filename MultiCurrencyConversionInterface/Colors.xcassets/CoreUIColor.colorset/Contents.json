@@ -5,14 +5,11 @@
         "color-space" : "srgb",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0xCD",
-          "green" : "0xD3",
-          "red" : "0x86"
+          "blue" : "0.804",
+          "green" : "0.827",
+          "red" : "0.525"
         }
       },
-      "idiom" : "universal"
-    },
-    {
       "idiom" : "universal"
     }
   ],

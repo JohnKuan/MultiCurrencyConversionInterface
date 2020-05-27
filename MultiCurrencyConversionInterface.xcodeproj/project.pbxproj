@@ -18,9 +18,10 @@
 		B2C9062F247E16EA0042B5D0 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9062E247E16EA0042B5D0 /* WebService.swift */; };
 		B2C90632247E18850042B5D0 /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C90631247E18850042B5D0 /* CurrencyViewModel.swift */; };
 		B2C90635247E191E0042B5D0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C90634247E191E0042B5D0 /* Models.swift */; };
-		source
 		B2C9063C247E21F60042B5D0 /* Dropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9063B247E21F60042B5D0 /* Dropdown.swift */; };
 		B2C9063F247E290C0042B5D0 /* CurrencyConverterViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9063E247E290C0042B5D0 /* CurrencyConverterViewCard.swift */; };
+		B2CE2E8B247E89C60070FCC0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C90637247E1EAC0042B5D0 /* Constants.swift */; };
+		B2CE2E8C247E89D20070FCC0 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C90639247E1F4F0042B5D0 /* Colors.xcassets */; };
 		B2F18EE8247E32A3001E1AD2 /* CurrencyConversionScreeenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F18EE7247E32A3001E1AD2 /* CurrencyConversionScreeenViewModel.swift */; };
 		B2F5749F247E3BB500046A32 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F5749E247E3BB500046A32 /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
@@ -306,8 +307,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CE2E8C247E89D20070FCC0 /* Colors.xcassets in Resources */,
 				B2C9060A247E15590042B5D0 /* LaunchScreen.storyboard in Resources */,
-				B2C9063A247E1F4F0042B5D0 /* Colors.xcassets in Resources */,
 				B2C90607247E15590042B5D0 /* Preview Assets.xcassets in Resources */,
 				B2C90604247E15590042B5D0 /* Assets.xcassets in Resources */,
 			);
@@ -334,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CE2E8B247E89C60070FCC0 /* Constants.swift in Sources */,
 				B2C9063F247E290C0042B5D0 /* CurrencyConverterViewCard.swift in Sources */,
 				B2C905FE247E15570042B5D0 /* AppDelegate.swift in Sources */,
 				B2C90632247E18850042B5D0 /* CurrencyViewModel.swift in Sources */,
@@ -341,7 +343,6 @@
 				B2C90600247E15570042B5D0 /* SceneDelegate.swift in Sources */,
 				B2C90635247E191E0042B5D0 /* Models.swift in Sources */,
 				B2F5749F247E3BB500046A32 /* ViewExtension.swift in Sources */,
-				B2C90638247E1EAC0042B5D0 /* Constants.swift in Sources */,
 				B2C9062F247E16EA0042B5D0 /* WebService.swift in Sources */,
 				B2C9063C247E21F60042B5D0 /* Dropdown.swift in Sources */,
 				B2C90602247E15570042B5D0 /* ContentView.swift in Sources */,
